@@ -20,18 +20,18 @@ memory = ConversationBufferMemory()
 memory.chat_memory.add_user_message("You will act as a principal software engineer and answer software engineering questions.")
 memory.chat_memory.add_ai_message("I am a principal software engineer and will answer your software engineering questions.")
 
-titan_llm = Bedrock(model_id="amazon.titan-tg1-large",client=client)
-titan_llm.model_kwargs = {"maxTokens": 4096, 'temperature': 1.0, 'topP':0.9}
+titan_llm = Bedrock(
+    model_id="amazon.titan-text-lite-v1",
+    client=client)
 conversation = ConversationChain(
-     llm=titan_llm, verbose=True, memory=memory
+     llm=titan_llm, 
+     verbose=True, 
+     memory=memory
 )
 
 # Running prompts
 conversation.predict(input="What is the best programming language?")
-conversation.verbose = False
-str(conversation.predict(input="What programming languages do you use?"))
-
-
-
+conversation.verbose = True
+conversation.predict(input="What programming languages do you use?")
 
 
