@@ -1,0 +1,17 @@
+model_arn,model_id,model_name,provider_name,input_modalities,output_modalities,resp_streaming_supported,customisations_supported,inference_types_supported,model_lifecycle_status
+arn:aws:bedrock:us-west-2::foundation-model/amazon.titan-tg1-large,amazon.titan-tg1-large,Titan Text Large,Amazon,['TEXT'],TEXT,True,[],ON_DEMAND,ACTIVE
+arn:aws:bedrock:us-west-2::foundation-model/amazon.titan-text-lite-v1,amazon.titan-text-lite-v1,Titan Text G1 - Lite,Amazon,['TEXT'],TEXT,True,[],ON_DEMAND,ACTIVE
+arn:aws:bedrock:us-west-2::foundation-model/amazon.titan-text-express-v1,amazon.titan-text-express-v1,Titan Text G1 - Express,Amazon,['TEXT'],TEXT,True,[],ON_DEMAND,ACTIVE
+arn:aws:bedrock:us-west-2::foundation-model/ai21.j2-grande-instruct,ai21.j2-grande-instruct,J2 Grande Instruct,AI21 Labs,['TEXT'],TEXT,False,[],ON_DEMAND,ACTIVE
+arn:aws:bedrock:us-west-2::foundation-model/ai21.j2-jumbo-instruct,ai21.j2-jumbo-instruct,J2 Jumbo Instruct,AI21 Labs,['TEXT'],TEXT,False,[],ON_DEMAND,ACTIVE
+arn:aws:bedrock:us-west-2::foundation-model/ai21.j2-mid,ai21.j2-mid,Jurassic-2 Mid,AI21 Labs,['TEXT'],TEXT,False,[],ON_DEMAND,ACTIVE
+arn:aws:bedrock:us-west-2::foundation-model/ai21.j2-mid-v1,ai21.j2-mid-v1,Jurassic-2 Mid,AI21 Labs,['TEXT'],TEXT,False,[],ON_DEMAND,ACTIVE
+arn:aws:bedrock:us-west-2::foundation-model/ai21.j2-ultra,ai21.j2-ultra,Jurassic-2 Ultra,AI21 Labs,['TEXT'],TEXT,False,[],ON_DEMAND,ACTIVE
+arn:aws:bedrock:us-west-2::foundation-model/ai21.j2-ultra-v1,ai21.j2-ultra-v1,Jurassic-2 Ultra,AI21 Labs,['TEXT'],TEXT,False,[],ON_DEMAND,ACTIVE
+arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-instant-v1,anthropic.claude-instant-v1,Claude Instant,Anthropic,['TEXT'],TEXT,True,[],ON_DEMAND,ACTIVE
+arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-v2:1,anthropic.claude-v2:1,Claude,Anthropic,['TEXT'],TEXT,True,[],ON_DEMAND,ACTIVE
+arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-v2,anthropic.claude-v2,Claude,Anthropic,['TEXT'],TEXT,True,[],ON_DEMAND,ACTIVE
+arn:aws:bedrock:us-west-2::foundation-model/cohere.command-text-v14,cohere.command-text-v14,Command,Cohere,['TEXT'],TEXT,True,[],ON_DEMAND,ACTIVE
+arn:aws:bedrock:us-west-2::foundation-model/cohere.command-light-text-v14,cohere.command-light-text-v14,Command Light,Cohere,['TEXT'],TEXT,True,[],ON_DEMAND,ACTIVE
+arn:aws:bedrock:us-west-2::foundation-model/meta.llama2-13b-chat-v1,meta.llama2-13b-chat-v1,Llama 2 Chat 13B,Meta,['TEXT'],TEXT,True,[],ON_DEMAND,ACTIVE
+arn:aws:bedrock:us-west-2::foundation-model/meta.llama2-70b-chat-v1,meta.llama2-70b-chat-v1,Llama 2 Chat 70B,Meta,['TEXT'],TEXT,True,[],ON_DEMAND,ACTIVE
