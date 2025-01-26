@@ -1,4 +1,4 @@
-llama.cpp
+llama.cpp/**
 helpers/convert**.py
 src/download**.py
 src/archive
